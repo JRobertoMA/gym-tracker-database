@@ -74,7 +74,7 @@ CREATE TABLE
     ) NOT NULL DEFAULT 'N/A',
     `method` varchar(150) DEFAULT NULL,
     `default_sets` tinyint (3) unsigned DEFAULT NULL,
-    `default_reps` tinyint (3) unsigned DEFAULT NULL,
+    `default_reps` smallint (5) unsigned DEFAULT NULL,
     `default_rest_sec` smallint (5) unsigned DEFAULT NULL,
     `notes` text DEFAULT NULL,
     `tracking_type` enum ('reps', 'time') NOT NULL DEFAULT 'reps',
